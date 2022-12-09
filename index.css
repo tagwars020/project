@@ -14,11 +14,11 @@ body {
 }
 
 div{
-    border: #;
     margin-top: 3%;
     justify-content: center;
     text-align: center;
 }
+  
 
 label, input{
     color: white;
