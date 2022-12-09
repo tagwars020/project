@@ -69,16 +69,15 @@ p {
 
     text-align: justify;
     text-indent: 50px;
-    letter-spacing: 2px;
     font-size: 20px;
     color: white;
     background-color: rgba(0,0,0,0.3);
-    padding: 10px;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
-    max-height: 80px;
+    
     
 }
 
@@ -101,7 +100,7 @@ p {
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 18px;
   display: none;
   background-color: rgba(0,0,0,0.3);
   color: white;
@@ -112,7 +111,6 @@ p {
   margin-bottom: 30px;
   max-height: 130px;
   font-size: 20px;
-  overflow: hidden;
 
 }
 
