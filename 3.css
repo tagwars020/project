@@ -67,7 +67,7 @@ nav {
 
 p {
     background-color: rgba(0,0,0,0.3);
-    font-size: 22px;
+    font-size: 19px;
     color: white;
     padding: 20px;
     width: 80%;
@@ -80,7 +80,7 @@ p {
 
 .accordion {
   background-color: rgba(0,0,0,0.3);
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   padding: 20px;
   width: 50%;
@@ -100,7 +100,7 @@ p {
 
 .panel {
   background-color: rgba(0,0,0,0.3);
-  font-size: 22px;
+  font-size: 19px;
   color: white;
   padding: 20px;
   width: 80%;
