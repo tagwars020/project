@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    left: 0px;
+    right:0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+body {
+    background: url('image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+div{
+    border: #;
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+label, input{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fname, #lname{
+    color: black;
+}
+
+input, .sub{
+    border: 1px solid black;
+}
+
+form{
+    background-color: rgba(0,0,0,0.3);
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub{
+    padding: 6px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.sub:hover{
+    color: black;
+    background-color: white;
+}

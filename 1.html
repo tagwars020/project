@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="1.css">
+    <link rel="icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<nav>
+    <div class="one">
+        <a href="index.html">Shop</a></div>
+    <div class="two">
+        <a href="1.html">Home</a>  
+        <a href="2.html">Product</a>
+        <a href="3.html">About</a></div>
+</nav>
+
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="1.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="2.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="3.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="4.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="5.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="6.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="7.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="8.jpg">
+</div>
+  
+<div class="mySlides fade">
+  <img src="9.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="10.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="11.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="12.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="13.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="14.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="15.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="16.jpg">
+</div>
+
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+
+
+
+</html>

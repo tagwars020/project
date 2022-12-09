@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="3.css">
+    <link rel="icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<nav>
+    <div class="one">
+        <a href="index.html">Shop</a></div>
+    <div class="two">
+        <a href="1.html">Home</a>  
+        <a href="2.html">Product</a>
+        <a href="3.html">About</a></div>
+</nav>
+
+<body>
+
+<p>Online buying and selling have become important parts of many people's lives. Virtual stores allow people to shop from the comfort of their homes without the pressure of a salesperson. Online marketplaces provide a new and more convenient venue for exchanging virtually all types of goods and services.</p>
+
+<button class="accordion">How Does Online Buying Work?</button>
+<div class="panel">
+  <p1>Shopping online is just like heading out to the store. You can often buy the same products online as available in a brick-and-mortar store and can sometimes score better sales.</p1>
+</div>
+
+<button class="accordion">Key Takeaways</button>
+<div class="panel">
+  <ul>
+  <li>- Due to the high cost of college, students and parents rely on the Internet to acquire and sell textbooks at affordable prices.</li>
+  <li>- Online shopping is a large section of the retail industry.</li>
+  <li>- Most brick-and-mortar stores offer online shopping via their websites.</li>
+  <li>- Many stores offer a virtual customer service experience to their customers.</li>
+  <li>- Buying and selling online can be very convenient and fun, but make sure to protect your financial information when shopping online.</li>
+</ul>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+
+
+
+</html>
