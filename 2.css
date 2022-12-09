@@ -10,7 +10,6 @@ body {
     background-size: contain, cover;
     background-repeat: repeat;
     background-attachment: fixed;
-    object-fit: scale-down;
 }
 
 nav {
