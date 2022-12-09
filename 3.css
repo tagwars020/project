@@ -75,11 +75,12 @@ p {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: times new roman;
 }
 
 .accordion {
   background-color: rgba(0,0,0,0.3);
-  font-size: 22px;
+  font-size: 21px;
   color: white;
   padding: 20px;
   width: 50%;
@@ -89,6 +90,7 @@ p {
   margin-right: auto;
   transition: 0.4s;
   cursor: pointer;
+  font-family: times new roman;
 }
 
 .active, .accordion:hover {
@@ -108,4 +110,5 @@ p {
   margin-right: auto;
   display: none;
   overflow: hidden;
+  font-family: times new roman;
 }
