@@ -106,4 +106,6 @@ p {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  display: none;
+  overflow: hidden;
 }
