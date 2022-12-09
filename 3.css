@@ -71,8 +71,8 @@ p {
     text-indent: 50px;
     letter-spacing: 2px;
     font-size: 20px;
-    color: #1B313E;
-    background-color: #736956;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
     padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
@@ -83,8 +83,8 @@ p {
 }
 
 .accordion {
-  background-color: #1C292C;
-  color: #736956;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 50%;
@@ -96,22 +96,33 @@ p {
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color: white; 
+  color: black;
 }
 
 .panel {
   padding: 0 18px;
   display: none;
-  background-color: #736956;
-  color: #1B313E;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
   text-align: center;
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 30px;
   margin-bottom: 30px;
-  max-height: 70px;
+  max-height: 130px;
   font-size: 20px;
   overflow: hidden;
 
 }
 
+ul{
+}
+
+ul li{
+}
+
+.p2{
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+}
