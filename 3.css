@@ -66,33 +66,29 @@ nav {
 }
 
 p {
-
-    text-align: justify;
-    text-indent: 50px;
+    background-color: rgba(0,0,0,0.3);
     font-size: 22px;
     color: white;
-    background-color: rgba(0,0,0,0.3);
     padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .accordion {
   background-color: rgba(0,0,0,0.3);
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 50%;
-  border: none;
-  text-align: left;
-  outline: none;
   font-size: 22px;
+  color: white;
+  padding: 20px;
+  width: 50%;
+  text-align: left;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
   transition: 0.4s;
-  font-family: none;
+  cursor: pointer;
 }
 
 .active, .accordion:hover {
@@ -101,15 +97,13 @@ p {
 }
 
 .panel {
-  padding: 18px;
-  display: none;
   background-color: rgba(0,0,0,0.3);
-  color: white;
-  text-align: center;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  max-height: 130px;
   font-size: 22px;
+  color: white;
+  padding: 20px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
