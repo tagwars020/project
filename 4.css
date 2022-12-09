@@ -3,18 +3,13 @@
     margin: 0px;
     text-decoration: none;
     list-style-type: none;
-    left: 0px;
-    right:0px;
-    top: 0px;
-    bottom: 0px;
 }
 
 body {
     background: url('image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    position: fixed;
+    background-size: contain, cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 nav {
@@ -77,6 +72,7 @@ nav {
     padding-top: 150px;
     padding-bottom:150px;
     margin-top: 7.5%;
+    object-fit: contain;
 }
 
 .three p{
