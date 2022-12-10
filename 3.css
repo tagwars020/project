@@ -8,7 +8,7 @@
 body {
     background: url('image.jpg');
     background-size: contain, cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -114,4 +114,9 @@ p, .p1{
 .wlink{
     text-decoration: none;
     color: white;
+}
+
+.wlink:hover{
+background-color: white;
+    color: black;
 }
